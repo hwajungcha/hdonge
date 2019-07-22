@@ -1,0 +1,51 @@
+* {
+    width: 1440px;
+    font-family: "NotoSans Regular"
+}
+header {
+    width: 1440px;
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+}
+.bg {
+    width: 1440px;
+    z-index: 10;
+}
+
+.logo {
+    width: 66px;
+    margin: 21 0 0 111px;
+}
+
+
+li{
+    width: 264px;
+    margin: 15 15 0 15px;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    margin: 9 0 0 100px;
+    width: 980px;
+    float: left;
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    flex-flow: row;
+}
+.lang {
+    font-size: 16px;
+}
+
+p {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+    top: 120px;
+    left: 119px;
+}
